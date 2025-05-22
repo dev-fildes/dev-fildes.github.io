@@ -66,6 +66,8 @@ const Windows = () => {
                                 Sarah Fildes, software engineer with experience in Javascript with React.
                                 <br/><br/>
                                 email: devfildes@gmail.com
+                                <br/><br/>
+                                theme: windows98 throwback (wip)
                             </div>
                             <div id="projects">Updating soon!</div>
                             <div id="other">other page</div>
