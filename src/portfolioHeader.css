@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(75deg, #242424 10%, #191919 100%);
+    /*width: 60%;*/
+    /*background-color: #4a4a4a;*/
+    /*margin: 5% 0 0 8%;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+div {
+    position: relative;
+}
+/* The div isn't really needed its just because this setup made it a bit easier for me for editability with the inputs, option without div and nested span is at the following link
+https://codepen.io/mandßmichael/pen/OJGjXgO
+*/
+
+.lineBreaker {
+    height: 4px;
+    background-color:#323232;
+    margin:20px 10px 20px 0;
+}
+
+h1 {
+    color: rgba(20,20,20,1);
+}
+
+
+.text {
+    font-family: "Fira Mono", monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1ch;
+    font-size: 3vw;
+    line-height: 1;
+    margin: 0;
+
+}
+
+span {
+    --offset:1;
+    position: absolute;
+    color: #ffcc00;
+    left: calc(var(--offset) * 1ch + calc(var(--offset) * 0.1ch));
+    animation: flicker 4s linear infinite;
+
+/*When using a span this is needed for positioning*/
+top: 0;
+    z-index: 1;
+}
+
+@keyframes flicker {
+    0%, 19.9%, 22%, 62.9%, 64%, 64.9%, 70%, 100% {
+        opacity: 0.99;
+        text-shadow:
+        -1px -1px 0 rgba(255,255,255, 0.4),
+        1px -1px 0 rgba(255,255,255, 0.4),
+        -1px 1px 0 rgba(255,255,255, 0.4),
+        1px 1px 0 rgba(255,255,255, 0.4),
+        0 -2px 8px, /*default color*/
+        0 0 2px, /*default color*/
+        0 0 5px #ff7e00,
+        0 0 15px #ff4444,
+        0 0 2px #ff7e00,
+        0 2px 3px #000;
+    }
+    20%, 21.9%, 63%, 63.9%, 65%, 69.9% {
+        opacity: 0.4;
+        text-shadow: none;
+    }
+}
+
+ button {
+     background-color: #222; /* Green */
+     border: none;
+     color: white;
+     /*padding: 30px;*/
+     height: 70px;
+     width: 70px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 12px;
+     border-radius: 100px;
+}

@@ -1,13 +1,18 @@
-import MainWindow from './windows.jsx'
-import './App.css'
-import './fonts/w95fa/w95fa.woff'
+import PortfolioHeader from './PortfolioHeader.jsx'
+import PortfolioBody from './PortfolioBody.jsx'
+import PortfolioFooter from './PortfolioFooter.jsx'
 
 function App() {
 
     return (
-        <>
-            <MainWindow/>
-        </>
+        <div className="portfolioMain">
+            <PortfolioHeader/>
+
+            <div className="lineBreaker"></div>
+            <PortfolioBody/>
+            <div className="lineBreaker"></div>
+            <PortfolioFooter/>
+        </div>
     )
 }
 
