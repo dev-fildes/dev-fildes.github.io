@@ -67,7 +67,7 @@ const Windows = () => {
                                 <br/><br/>
                                 e-mail: devfildes@gmail.com
                             </div>
-                            <div id="projects">Updating soon!</div>
+                            <div id="projects">Off the Rails: Project done utilizing Javascript, React and Ruby on Rails during my time during Launch Academy with three other project members. (Currently offline, working on redeploying) </div>
                             <div id="other">
                                 Theme: Windows 98 Throwback</div>
                         </div>
