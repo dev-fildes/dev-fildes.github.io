@@ -1,0 +1,21 @@
+.portfolioFooter--Container {
+    display: flex;
+    justify-content: center;
+}
+.footerButton {
+    margin: 10px;
+    padding: 15px;
+    background-image: linear-gradient(-180deg, #2e2e2e, #222);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #9f9f9f;
+    text-align: center;
+    white-space: nowrap;
+    border: 0;
+    font-family: tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.footerButton:hover {
+    background: #222;
+}

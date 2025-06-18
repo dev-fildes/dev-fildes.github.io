@@ -1,5 +1,4 @@
 import './portfolioHeader.css';
-import './assets/minimize.svg'
 
 const PortfolioHeader = () => {
     return (<div className="blogContainer">

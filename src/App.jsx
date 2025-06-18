@@ -7,7 +7,6 @@ function App() {
     return (
         <div className="portfolioMain">
             <PortfolioHeader/>
-
             <div className="lineBreaker"></div>
             <PortfolioBody/>
             <div className="lineBreaker"></div>
