@@ -13,7 +13,7 @@ button {
 }
 
 .windowSelfie {
-    height:200px;
+    height:100px;
 }
 
 button:active {
@@ -138,6 +138,7 @@ button:active {
 
 .windows--creatorPaneContent {
     display: flex;
+    width: 150px;
     margin: 15px;
     border: 1px inset white;
     box-shadow: inset 0 0 0 1px #808080;

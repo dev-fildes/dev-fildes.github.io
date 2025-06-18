@@ -1,6 +1,6 @@
 import './windowsCSS.css';
 import './assets/minimize.svg'
-import selfie from './assets/0P5A3j301.jpg';
+import selfie from './assets/instant messenger_messenger_icon.png';
 
 const Windows = () => {
     window.addEventListener('load', () => {
@@ -44,7 +44,7 @@ const Windows = () => {
                         <img src={selfie} className="windowSelfie" alt="picture"/>
                         <div className="windows--creatorInfo">
                             Sarah Fildes <span className="windows--creatorStatus">(Available)</span>
-                            <div className="windows--creatorStatus">{`< looking for work >`}</div>
+                            <div className="windows--creatorStatus"><a href="https://docs.google.com/document/d/1JkPcXgVyxcBRyjM_m6nOTXONDxcG_2I81Qu2MpJffS8/edit?usp=sharing" alt={"Link to resume"}>{`Download Resume`}</a></div>
                         </div>
                     </div>
                 </div>
@@ -63,14 +63,13 @@ const Windows = () => {
                         </div>
                         <div className="tabs--panels">
                             <div id="about" className="active">
-                                Sarah Fildes, software engineer with experience in Javascript with React.
+                                Software Engineer, PC-builder, and creative writer. Based out of Boston, Massachusetts.
                                 <br/><br/>
-                                email: devfildes@gmail.com
-                                <br/><br/>
-                                theme: windows98 throwback (wip)
+                                e-mail: devfildes@gmail.com
                             </div>
                             <div id="projects">Updating soon!</div>
-                            <div id="other">other page</div>
+                            <div id="other">
+                                Theme: Windows 98 Throwback</div>
                         </div>
                     </div>
                 </div>
